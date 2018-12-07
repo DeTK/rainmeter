@@ -1,0 +1,1236 @@
+Player Settings:
+
+---- iTunes ----
+
+Cover: yes
+Title: yes
+Album: yes
+Artist: yes
+PlayPause: yes
+
+Variables:
+- Cover, Playpause, left align:
+Player=iTunes
+PlayPauseHidden=0
+PlayHidden=1
+PauseHidden=1
+PrevHidden=0
+Prev2Hidden=1
+NextHidden=0
+Next2Hidden=1
+CoverHidden=0
+Align=Left
+AxisXCoverBackground=3
+AxisXCover=10
+AxisXText=100
+AxisXButtonPrev=100
+AxisXButtonPrev2=100
+AxisXButtonPlayPause=130
+AxisXButtonPause=130
+AxisXButtonPlay=160
+AxisXButtonNext=160
+AxisXButtonNext2=190
+
+[!RainmeterWriteKeyValue Variables Player "iTunes" "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PlayPauseHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PlayHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PauseHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PrevHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Prev2Hidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables NextHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Next2Hidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables CoverHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Align Left "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXCoverBackground 3 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXCover 10 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXText 10 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPrev 100 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPrev2 100 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPlayPause 130 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPause 130 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPlay 160 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonNext 160 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonNext2 190 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterRefresh "All-in-one Player"]
+
+
+- Cover, Playpause, right align:
+Player=iTunes
+PlayPauseHidden=0
+PlayHidden=1
+PauseHidden=1
+PrevHidden=1
+Prev2Hidden=0
+NextHidden=1
+Next2Hidden=0
+CoverHidden=0
+Align=Right
+AxisXCoverBackground=493
+AxisXCover=500
+AxisXText=399
+AxisXButtonPrev=312
+AxisXButtonPrev2=282
+AxisXButtonPlayPause=342
+AxisXButtonPause=312
+AxisXButtonPlay=342
+AxisXButtonNext=372
+AxisXButtonNext2=372
+
+[!RainmeterWriteKeyValue Variables Player "iTunes" "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PlayPauseHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PlayHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PauseHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PrevHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Prev2Hidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables NextHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Next2Hidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables CoverHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Align Right "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXCoverBackground 493 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXCover 500 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXText 399 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPrev 312 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPrev2 282 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPlayPause 342 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPause 312 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPlay 342 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonNext 372 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonNext2 372 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterRefresh "All-in-one Player"]
+
+- No cover, playpause, left align
+Player=iTunes
+PlayPauseHidden=0
+PlayHidden=1
+PauseHidden=1
+PrevHidden=0
+Prev2Hidden=1
+NextHidden=0
+Next2Hidden=1
+CoverHidden=1
+Align=Left
+AxisXCoverBackground=403
+AxisXCover=10
+AxisXText=10
+AxisXButtonPrev=10
+AxisXButtonPrev2=10
+AxisXButtonPlayPause=40
+AxisXButtonPause=40
+AxisXButtonPlay=70
+AxisXButtonNext=70
+AxisXButtonNext2=100
+
+[!RainmeterWriteKeyValue Variables Player "iTunes" "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PlayPauseHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PlayHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PauseHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PrevHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Prev2Hidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables NextHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Next2Hidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables CoverHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Align Left "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXCoverBackground 403 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXCover 10 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXText 10 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPrev 10 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPrev2 10 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPlayPause 40 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPause 40 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPlay 70 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonNext 70 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonNext2 100 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterRefresh "All-in-one Player"]
+
+- No cover, playpause, right align
+Player=iTunes
+PlayPauseHidden=0
+PlayHidden=1
+PauseHidden=1
+PrevHidden=0
+Prev2Hidden=1
+NextHidden=0
+Next2Hidden=1
+CoverHidden=1
+Align=Right
+AxisXCoverBackground=403
+AxisXCover=410
+AxisXText=410
+AxisXButtonPrev=402
+AxisXButtonPrev2=372
+AxisXButtonPlayPause=432
+AxisXButtonPause=402
+AxisXButtonPlay=432
+AxisXButtonNext=462
+AxisXButtonNext2=462
+
+[!RainmeterWriteKeyValue Variables Player "iTunes" "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PlayPauseHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PlayHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PauseHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PrevHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Prev2Hidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables NextHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Next2Hidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables CoverHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Align Right "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXCoverBackground 403 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXCover 410 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXText 410 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPrev 402 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPrev2 372 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPlayPause 432 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPause 402 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPlay 432 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonNext 462 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonNext2 462 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterRefresh "All-in-one Player"]
+
+
+---- WMP ----
+
+Cover: yes
+Title: yes
+Album: yes
+Artist: yes
+PlayPause: yes
+
+Variables:
+- Cover, Playpause, left align:
+Player=WMP
+PlayPauseHidden=0
+PlayHidden=1
+PauseHidden=1
+PrevHidden=0
+Prev2Hidden=1
+NextHidden=0
+Next2Hidden=1
+CoverHidden=0
+Align=Left
+AxisXCoverBackground=3
+AxisXCover=10
+AxisXText=100
+AxisXButtonPrev=100
+AxisXButtonPrev2=100
+AxisXButtonPlayPause=130
+AxisXButtonPause=130
+AxisXButtonPlay=160
+AxisXButtonNext=160
+AxisXButtonNext2=190
+
+[!RainmeterWriteKeyValue Variables Player "WMP" "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PlayPauseHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PlayHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PauseHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PrevHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Prev2Hidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables NextHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Next2Hidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables CoverHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Align Left "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXCoverBackground 3 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXCover 10 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXText 10 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPrev 100 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPrev2 100 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPlayPause 130 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPause 130 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPlay 160 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonNext 160 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonNext2 190 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterRefresh "All-in-one Player"]
+
+- Cover, Playpause, right align:
+Player=WMP
+PlayPauseHidden=0
+PlayHidden=1
+PauseHidden=1
+PrevHidden=1
+Prev2Hidden=0
+NextHidden=1
+Next2Hidden=0
+CoverHidden=0
+Align=Right
+AxisXCoverBackground=493
+AxisXCover=500
+AxisXText=399
+AxisXButtonPrev=312
+AxisXButtonPrev2=282
+AxisXButtonPlayPause=342
+AxisXButtonPause=312
+AxisXButtonPlay=342
+AxisXButtonNext=372
+AxisXButtonNext2=372
+
+[!RainmeterWriteKeyValue Variables Player "WMP" "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PlayPauseHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PlayHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PauseHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PrevHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Prev2Hidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables NextHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Next2Hidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables CoverHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Align Right "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXCoverBackground 493 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXCover 500 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXText 399 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPrev 312 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPrev2 282 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPlayPause 342 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPause 312 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPlay 342 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonNext 372 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonNext2 372 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterRefresh "All-in-one Player"]
+
+- No cover, playpause, left align
+Player=WMP
+PlayPauseHidden=0
+PlayHidden=1
+PauseHidden=1
+PrevHidden=0
+Prev2Hidden=1
+NextHidden=0
+Next2Hidden=1
+CoverHidden=1
+Align=Right
+AxisXCoverBackground=403
+AxisXCover=10
+AxisXText=10
+AxisXButtonPrev=10
+AxisXButtonPrev2=10
+AxisXButtonPlayPause=40
+AxisXButtonPause=40
+AxisXButtonPlay=70
+AxisXButtonNext=70
+AxisXButtonNext2=100
+
+[!RainmeterWriteKeyValue Variables Player "WMP" "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PlayPauseHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PlayHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PauseHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PrevHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Prev2Hidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables NextHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Next2Hidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables CoverHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Align Left "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXCoverBackground 403 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXCover 10 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXText 10 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPrev 10 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPrev2 10 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPlayPause 40 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPause 40 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPlay 70 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonNext 70 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonNext2 100 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterRefresh "All-in-one Player"]
+
+- No cover, playpause, right align
+Player=WMP
+PlayPauseHidden=0
+PlayHidden=1
+PauseHidden=1
+PrevHidden=0
+Prev2Hidden=1
+NextHidden=0
+Next2Hidden=1
+CoverHidden=1
+Align=Right
+AxisXCoverBackground=403
+AxisXCover=410
+AxisXText=410
+AxisXButtonPrev=402
+AxisXButtonPrev2=372
+AxisXButtonPlayPause=432
+AxisXButtonPause=402
+AxisXButtonPlay=432
+AxisXButtonNext=462
+AxisXButtonNext2=462
+
+
+[!RainmeterWriteKeyValue Variables Player "WMP" "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PlayPauseHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PlayHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PauseHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PrevHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Prev2Hidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables NextHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Next2Hidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables CoverHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Align Right "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXCoverBackground 403 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXCover 410 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXText 410 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPrev 402 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPrev2 372 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPlayPause 432 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPause 402 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPlay 432 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonNext 462 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonNext2 462 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterRefresh "All-in-one Player"]
+
+
+---- MediaMonkey ----
+
+
+Cover: yes
+Title: yes
+Album: yes
+Artist: yes
+PlayPause: yes
+
+Variables:
+- Cover, Playpause, left align:
+Player=MediaMonkey
+PlayPauseHidden=0
+PlayHidden=1
+PauseHidden=1
+PrevHidden=0
+Prev2Hidden=1
+NextHidden=0
+Next2Hidden=1
+CoverHidden=0
+Align=Left
+AxisXCoverBackground=3
+AxisXCover=10
+AxisXText=100
+AxisXButtonPrev=100
+AxisXButtonPrev2=100
+AxisXButtonPlayPause=130
+AxisXButtonPause=130
+AxisXButtonPlay=160
+AxisXButtonNext=160
+AxisXButtonNext2=190
+
+[!RainmeterWriteKeyValue Variables Player "MediaMonkey" "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PlayPauseHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PlayHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PauseHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PrevHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Prev2Hidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables NextHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Next2Hidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables CoverHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Align Left "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXCoverBackground 3 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXCover 10 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXText 10 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPrev 100 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPrev2 100 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPlayPause 130 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPause 130 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPlay 160 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonNext 160 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonNext2 190 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterRefresh "All-in-one Player"]
+
+- Cover, Playpause, right align:
+Player=MediaMonkey
+PlayPauseHidden=0
+PlayHidden=1
+PauseHidden=1
+PrevHidden=1
+Prev2Hidden=0
+NextHidden=1
+Next2Hidden=0
+CoverHidden=0
+Align=Right
+AxisXCoverBackground=403
+AxisXCover=410
+AxisXText=399
+AxisXButtonPrev=312
+AxisXButtonPrev2=282
+AxisXButtonPlayPause=342
+AxisXButtonPause=312
+AxisXButtonPlay=342
+AxisXButtonNext=372
+AxisXButtonNext2=372
+
+[!RainmeterWriteKeyValue Variables Player "MediaMonkey" "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PlayPauseHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PlayHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PauseHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PrevHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Prev2Hidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables NextHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Next2Hidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables CoverHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Align Right "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXCoverBackground 493 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXCover 500 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXText 399 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPrev 312 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPrev2 282 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPlayPause 342 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPause 312 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPlay 342 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonNext 372 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonNext2 372 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterRefresh "All-in-one Player"]
+
+- No cover, playpause, left align
+Player=MediaMonkey
+PlayPauseHidden=0
+PlayHidden=1
+PauseHidden=1
+PrevHidden=0
+Prev2Hidden=1
+NextHidden=0
+Next2Hidden=1
+CoverHidden=1
+Align=Right
+AxisXCoverBackground=403
+AxisXCover=10
+AxisXText=10
+AxisXButtonPrev=10
+AxisXButtonPrev2=10
+AxisXButtonPlayPause=40
+AxisXButtonPause=40
+AxisXButtonPlay=70
+AxisXButtonNext=70
+AxisXButtonNext2=100
+
+[!RainmeterWriteKeyValue Variables Player "MediaMonkey" "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PlayPauseHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PlayHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PauseHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PrevHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Prev2Hidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables NextHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Next2Hidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables CoverHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Align Left "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXCoverBackground 403 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXCover 10 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXText 10 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPrev 10 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPrev2 10 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPlayPause 40 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPause 40 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPlay 70 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonNext 70 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonNext2 100 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterRefresh "All-in-one Player"]
+
+- No cover, playpause, right align
+Player=MediaMonkey
+PlayPauseHidden=0
+PlayHidden=1
+PauseHidden=1
+PrevHidden=0
+Prev2Hidden=1
+NextHidden=0
+Next2Hidden=1
+CoverHidden=1
+Align=Right
+AxisXCoverBackground=403
+AxisXCover=410
+AxisXText=410
+AxisXButtonPrev=402
+AxisXButtonPrev2=372
+AxisXButtonPlayPause=432
+AxisXButtonPause=402
+AxisXButtonPlay=432
+AxisXButtonNext=462
+AxisXButtonNext2=462
+
+
+[!RainmeterWriteKeyValue Variables Player "MediaMonkey" "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PlayPauseHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PlayHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PauseHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PrevHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Prev2Hidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables NextHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Next2Hidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables CoverHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Align Right "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXCoverBackground 403 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXCover 410 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXText 410 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPrev 402 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPrev2 372 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPlayPause 432 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPause 402 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPlay 432 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonNext 462 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonNext2 462 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterRefresh "All-in-one Player"]
+
+---- AIMP ----
+
+
+Cover: yes
+Title: yes
+Album: yes
+Artist: yes
+PlayPause: yes
+
+Variables:
+- Cover, Playpause, left align:
+Player=AIMP
+PlayPauseHidden=0
+PlayHidden=1
+PauseHidden=1
+PrevHidden=0
+Prev2Hidden=1
+NextHidden=0
+Next2Hidden=1
+CoverHidden=0
+Align=Left
+AxisXCoverBackground=3
+AxisXCover=10
+AxisXText=100
+AxisXButtonPrev=100
+AxisXButtonPrev2=100
+AxisXButtonPlayPause=130
+AxisXButtonPause=130
+AxisXButtonPlay=160
+AxisXButtonNext=160
+AxisXButtonNext2=190
+
+[!RainmeterWriteKeyValue Variables Player "AIMP" "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PlayPauseHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PlayHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PauseHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PrevHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Prev2Hidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables NextHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Next2Hidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables CoverHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Align Left "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXCoverBackground 3 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXCover 10 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXText 10 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPrev 100 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPrev2 100 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPlayPause 130 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPause 130 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPlay 160 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonNext 160 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonNext2 190 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterRefresh "All-in-one Player"]
+
+- Cover, Playpause, right align:
+Player=AIMP
+PlayPauseHidden=0
+PlayHidden=1
+PauseHidden=1
+PrevHidden=1
+Prev2Hidden=0
+NextHidden=1
+Next2Hidden=0
+CoverHidden=0
+Align=Right
+AxisXCoverBackground=403
+AxisXCover=410
+AxisXText=399
+AxisXButtonPrev=312
+AxisXButtonPrev2=282
+AxisXButtonPlayPause=342
+AxisXButtonPause=312
+AxisXButtonPlay=342
+AxisXButtonNext=372
+AxisXButtonNext2=372
+
+[!RainmeterWriteKeyValue Variables Player "AIMP" "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PlayPauseHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PlayHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PauseHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PrevHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Prev2Hidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables NextHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Next2Hidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables CoverHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Align Right "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXCoverBackground 493 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXCover 500 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXText 399 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPrev 312 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPrev2 282 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPlayPause 342 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPause 312 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPlay 342 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonNext 372 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonNext2 372 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterRefresh "All-in-one Player"]
+
+- No cover, playpause, left align
+Player=AIMP
+PlayPauseHidden=0
+PlayHidden=1
+PauseHidden=1
+PrevHidden=0
+Prev2Hidden=1
+NextHidden=0
+Next2Hidden=1
+CoverHidden=1
+Align=Right
+AxisXCoverBackground=403
+AxisXCover=10
+AxisXText=10
+AxisXButtonPrev=10
+AxisXButtonPrev2=10
+AxisXButtonPlayPause=40
+AxisXButtonPause=40
+AxisXButtonPlay=70
+AxisXButtonNext=70
+AxisXButtonNext2=100
+
+[!RainmeterWriteKeyValue Variables Player "AIMP" "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PlayPauseHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PlayHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PauseHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PrevHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Prev2Hidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables NextHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Next2Hidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables CoverHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Align Left "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXCoverBackground 403 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXCover 10 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXText 10 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPrev 10 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPrev2 10 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPlayPause 40 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPause 40 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPlay 70 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonNext 70 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonNext2 100 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterRefresh "All-in-one Player"]
+
+- No cover, playpause, right align
+Player=AIMP
+PlayPauseHidden=0
+PlayHidden=1
+PauseHidden=1
+PrevHidden=0
+Prev2Hidden=1
+NextHidden=0
+Next2Hidden=1
+CoverHidden=1
+Align=Right
+AxisXCoverBackground=403
+AxisXCover=410
+AxisXText=410
+AxisXButtonPrev=402
+AxisXButtonPrev2=372
+AxisXButtonPlayPause=432
+AxisXButtonPause=402
+AxisXButtonPlay=432
+AxisXButtonNext=462
+AxisXButtonNext2=462
+
+
+[!RainmeterWriteKeyValue Variables Player "AIMP" "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PlayPauseHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PlayHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PauseHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PrevHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Prev2Hidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables NextHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Next2Hidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables CoverHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Align Right "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXCoverBackground 403 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXCover 410 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXText 410 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPrev 402 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPrev2 372 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPlayPause 432 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPause 402 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPlay 432 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonNext 462 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonNext2 462 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterRefresh "All-in-one Player"]
+
+
+---- foobar2000 ----
+
+---- foo_rainmeter103 plug-in must be installed to foobar2000. (Library -> Configure -> Components -> Install... -> Apply -> Restart) ----
+Cover: yes
+Title: yes
+Album: yes
+Artist: yes
+PlayPause: yes
+
+Variables:
+- Cover, Playpause, left align:
+Player=foobar2000
+PlayPauseHidden=0
+PlayHidden=1
+PauseHidden=1
+PrevHidden=0
+Prev2Hidden=1
+NextHidden=0
+Next2Hidden=1
+CoverHidden=0
+Align=Left
+AxisXCoverBackground=3
+AxisXCover=10
+AxisXText=100
+AxisXButtonPrev=100
+AxisXButtonPrev2=100
+AxisXButtonPlayPause=130
+AxisXButtonPause=130
+AxisXButtonPlay=160
+AxisXButtonNext=160
+AxisXButtonNext2=190
+
+[!RainmeterWriteKeyValue Variables Player "foobar2000" "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PlayPauseHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PlayHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PauseHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PrevHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Prev2Hidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables NextHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Next2Hidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables CoverHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Align Left "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXCoverBackground 3 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXCover 10 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXText 10 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPrev 100 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPrev2 100 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPlayPause 130 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPause 130 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPlay 160 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonNext 160 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonNext2 190 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterRefresh "All-in-one Player"]
+
+- Cover, Playpause, right align:
+Player=foobar2000
+PlayPauseHidden=0
+PlayHidden=1
+PauseHidden=1
+PrevHidden=1
+Prev2Hidden=0
+NextHidden=1
+Next2Hidden=0
+CoverHidden=0
+Align=Right
+AxisXCoverBackground=403
+AxisXCover=410
+AxisXText=399
+AxisXButtonPrev=312
+AxisXButtonPrev2=282
+AxisXButtonPlayPause=342
+AxisXButtonPause=312
+AxisXButtonPlay=342
+AxisXButtonNext=372
+AxisXButtonNext2=372
+
+[!RainmeterWriteKeyValue Variables Player "foobar2000" "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PlayPauseHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PlayHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PauseHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PrevHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Prev2Hidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables NextHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Next2Hidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables CoverHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Align Right "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXCoverBackground 493 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXCover 500 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXText 399 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPrev 312 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPrev2 282 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPlayPause 342 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPause 312 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPlay 342 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonNext 372 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonNext2 372 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterRefresh "All-in-one Player"]
+
+
+- No cover, playpause, left align
+Player=foobar2000
+PlayPauseHidden=0
+PlayHidden=1
+PauseHidden=1
+PrevHidden=0
+Prev2Hidden=1
+NextHidden=0
+Next2Hidden=1
+CoverHidden=1
+Align=Right
+AxisXCoverBackground=403
+AxisXCover=10
+AxisXText=10
+AxisXButtonPrev=10
+AxisXButtonPrev2=10
+AxisXButtonPlayPause=40
+AxisXButtonPause=40
+AxisXButtonPlay=70
+AxisXButtonNext=70
+AxisXButtonNext2=100
+
+[!RainmeterWriteKeyValue Variables Player "foobar2000" "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PlayPauseHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PlayHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PauseHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PrevHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Prev2Hidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables NextHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Next2Hidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables CoverHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Align Left "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXCoverBackground 403 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXCover 10 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXText 10 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPrev 10 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPrev2 10 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPlayPause 40 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPause 40 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPlay 70 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonNext 70 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonNext2 100 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterRefresh "All-in-one Player"]
+
+- No cover, playpause, right align
+Player=foobar2000
+PlayPauseHidden=0
+PlayHidden=1
+PauseHidden=1
+PrevHidden=0
+Prev2Hidden=1
+NextHidden=0
+Next2Hidden=1
+CoverHidden=1
+Align=Right
+AxisXCoverBackground=403
+AxisXCover=410
+AxisXText=410
+AxisXButtonPrev=402
+AxisXButtonPrev2=372
+AxisXButtonPlayPause=432
+AxisXButtonPause=402
+AxisXButtonPlay=432
+AxisXButtonNext=462
+AxisXButtonNext2=462
+
+[!RainmeterWriteKeyValue Variables Player "foobar2000" "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PlayPauseHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PlayHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PauseHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PrevHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Prev2Hidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables NextHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Next2Hidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables CoverHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Align Right "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXCoverBackground 403 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXCover 410 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXText 410 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPrev 402 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPrev2 372 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPlayPause 432 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPause 402 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPlay 432 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonNext 462 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonNext2 462 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterRefresh "All-in-one Player"]
+
+---- Media Player Classic ----
+
+---- 'Send Now Playing information to MSN Messenger' must be enabled in the player's settings (View -> Options -> Tweaks) ----
+
+Cover: no
+Title: yes
+Album: yes
+Artist: yes
+PlayPause: yes
+
+Variables:
+- No cover, playpause, left align
+Player=WLM
+PlayPauseHidden=0
+PlayHidden=1
+PauseHidden=1
+PrevHidden=0
+Prev2Hidden=1
+NextHidden=0
+Next2Hidden=1
+CoverHidden=1
+Align=Right
+AxisXCoverBackground=403
+AxisXCover=10
+AxisXText=10
+AxisXButtonPrev=10
+AxisXButtonPrev2=10
+AxisXButtonPlayPause=40
+AxisXButtonPause=40
+AxisXButtonPlay=70
+AxisXButtonNext=70
+AxisXButtonNext2=100
+
+[!RainmeterWriteKeyValue Variables Player "WLM" "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PlayPauseHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PlayHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PauseHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PrevHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Prev2Hidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables NextHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Next2Hidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables CoverHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Align Left "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXCoverBackground 403 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXCover 10 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXText 10 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPrev 10 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPrev2 10 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPlayPause 40 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPause 40 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPlay 70 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonNext 70 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonNext2 100 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterRefresh "All-in-one Player"]
+
+
+- No cover, playpause, right align
+Player=WLM
+PlayPauseHidden=0
+PlayHidden=1
+PauseHidden=1
+PrevHidden=0
+Prev2Hidden=1
+NextHidden=0
+Next2Hidden=1
+CoverHidden=1
+Align=Right
+AxisXCoverBackground=403
+AxisXCover=410
+AxisXText=410
+AxisXButtonPrev=402
+AxisXButtonPrev2=372
+AxisXButtonPlayPause=432
+AxisXButtonPause=402
+AxisXButtonPlay=432
+AxisXButtonNext=462
+AxisXButtonNext2=462
+
+
+[!RainmeterWriteKeyValue Variables Player "WLM" "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PlayPauseHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PlayHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PauseHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PrevHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Prev2Hidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables NextHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Next2Hidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables CoverHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Align Right "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXCoverBackground 403 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXCover 410 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXText 410 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPrev 402 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPrev2 372 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPlayPause 432 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPause 402 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPlay 432 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonNext 462 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonNext2 462 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterRefresh "All-in-one Player"]
+
+
+---- Zune ----
+
+Cover: no
+Title: yes
+Album: yes
+Artist: yes
+PlayPause: no
+
+Variables:
+- No cover, no playpause, left align:
+Player=WLM
+PlayPauseHidden=1
+PlayHidden=0
+PauseHidden=0
+PrevHidden=1
+Prev2Hidden=0
+NextHidden=1
+Next2Hidden=0
+CoverHidden=1
+Align=Left
+AxisXCoverBackground=3
+AxisXCover=10
+AxisXText=10
+AxisXButtonPrev=10
+AxisXButtonPrev2=10
+AxisXButtonPlayPause=40
+AxisXButtonPause=40
+AxisXButtonPlay=70
+AxisXButtonNext=70
+AxisXButtonNext2=100
+
+[!RainmeterWriteKeyValue Variables Player "WLM" "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PlayPauseHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PlayHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PauseHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PrevHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Prev2Hidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables NextHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Next2Hidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables CoverHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Align Left "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXCoverBackground 403 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXCover 10 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXText 10 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPrev 10 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPrev2 10 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPlayPause 40 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPause 40 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPlay 70 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonNext 70 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonNext2 100 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterRefresh "All-in-one Player"]
+
+- No cover, no playpause, right align:
+Player=WLM
+PlayPauseHidden=1
+PlayHidden=0
+PauseHidden=0
+PrevHidden=0
+Prev2Hidden=1
+NextHidden=0
+Next2Hidden=1
+CoverHidden=1
+Align=Right
+AxisXCoverBackground=403
+AxisXCover=10
+AxisXText=410
+AxisXButtonPrev=402
+AxisXButtonPrev2=372
+AxisXButtonPlayPause=432
+AxisXButtonPause=402
+AxisXButtonPlay=432
+AxisXButtonNext=462
+AxisXButtonNext2=462
+
+
+[!RainmeterWriteKeyValue Variables Player "WLM" "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PlayPauseHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PlayHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PauseHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PrevHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Prev2Hidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables NextHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Next2Hidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables CoverHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Align Right "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXCoverBackground 403 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXCover 410 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXText 410 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPrev 402 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPrev2 372 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPlayPause 432 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPause 402 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPlay 432 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonNext 462 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonNext2 462 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterRefresh "All-in-one Player"]
+
+
+---- MusicBee ----
+
+Cover: no
+Title: yes
+Album: yes
+Artist: yes
+PlayPause: yes
+
+Variables:
+- No cover, playpause, left align
+Player=CAD
+PlayPauseHidden=0
+PlayHidden=1
+PauseHidden=1
+PrevHidden=0
+Prev2Hidden=1
+NextHidden=0
+Next2Hidden=1
+CoverHidden=1
+Align=Right
+AxisXCoverBackground=403
+AxisXCover=10
+AxisXText=10
+AxisXButtonPrev=10
+AxisXButtonPrev2=10
+AxisXButtonPlayPause=40
+AxisXButtonPause=40
+AxisXButtonPlay=70
+AxisXButtonNext=70
+AxisXButtonNext2=100
+
+[!RainmeterWriteKeyValue Variables Player "CAD" "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PlayPauseHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PlayHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PauseHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PrevHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Prev2Hidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables NextHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Next2Hidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables CoverHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Align Left "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXCoverBackground 403 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXCover 10 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXText 10 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPrev 10 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPrev2 10 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPlayPause 40 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPause 40 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPlay 70 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonNext 70 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonNext2 100 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterRefresh "All-in-one Player"]
+
+- No cover, playpause, right align
+Player=CAD
+PlayPauseHidden=0
+PlayHidden=1
+PauseHidden=1
+PrevHidden=0
+Prev2Hidden=1
+NextHidden=0
+Next2Hidden=1
+CoverHidden=1W
+Align=Right
+AxisXCoverBackground=403
+AxisXCover=410
+AxisXText=410
+AxisXButtonPrev=402
+AxisXButtonPrev2=372
+AxisXButtonPlayPause=432
+AxisXButtonPause=402
+AxisXButtonPlay=432
+AxisXButtonNext=462
+AxisXButtonNext2=462
+
+
+[!RainmeterWriteKeyValue Variables Player "CAD" "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PlayPauseHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PlayHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PauseHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables PrevHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Prev2Hidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables NextHidden 0 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Next2Hidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables CoverHidden 1 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables Align Right "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXCoverBackground 403 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXCover 410 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXText 410 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPrev 402 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPrev2 372 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPlayPause 432 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPause 402 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonPlay 432 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonNext 462 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterWriteKeyValue Variables AxisXButtonNext2 462 "#ROOTCONFIGPATH#\Config\settings.inc"]
+[!RainmeterRefresh "All-in-one Player"]

@@ -1,0 +1,326 @@
+;
+; Rainmeter configuration file
+; "STEAM WHEEL" - App launcher
+; Skin Version 1.06
+;
+; For more info, right-click the main button.
+
+[Rainmeter]
+BackgroundMode=1
+Author=Ultra
+Update=1000
+AppVersion=1001
+
+[Variables]
+;--Edit these variables to customize the wheel.
+;--Read the ReadMe file first!
+
+;--Enter your steamapps folder path and Steam account name here.
+SteamApps=C:\Program Files\Steam
+AccountName=youraccountname
+
+;--To change the style, edit this variable.
+;--Style folders should be placed in the 'styles' folder.
+Style=Default
+
+;--If you want to give your Wheel a custom caption, type it here.
+;--You can also specify your own alpha value for the caption.
+;--Set it to 0 to hide the caption.
+CaptionText=Steam Wheel
+CaptionAlpha=200
+
+;--To change both the executed command and used image for each icon, edit these variables.
+Icon1Exe="steam://open/main"
+Icon1Img="icons\Steam.png"
+
+Icon2Exe="steam://run/220"
+Icon2Img="icons\Half-Life 2.png"
+
+Icon3Exe="steam://run/380"
+Icon3Img="icons\Half-Life 2.png"
+
+Icon4Exe="steam://run/420"
+Icon4Img="icons\Half-Life 2.png"
+
+Icon5Exe="steam://run/340"
+Icon5Img="icons\Half-Life 2.png"
+
+Icon6Exe="steam://run/70"
+Icon6Img="icons\Half-Life.png"
+
+Icon7Exe="steam://run/130"
+Icon7Img="icons\Blue Shift.png"
+
+Icon8Exe="steam://run/50"
+Icon8Img="icons\Opposing Force.png"
+
+Icon9Exe="steam://run/400"
+Icon9Img="icons\Portal.png"
+
+Icon10Exe="steam://run/440"
+Icon10Img="icons\Team Fortress 2.png"
+
+Icon11Exe="steam://run/500"
+Icon11Img="icons\Left 4 Dead.png"
+
+Icon12Exe="steam://run/500"
+Icon12Img="icons\Left 4 Dead.png"
+
+Icon13Exe="steam://run/4000"
+Icon13Img="icons\Garry's Mod.png"
+
+Icon14Exe="steam://run/240"
+Icon14Img="icons\Counter-Strike Source.png"
+
+Icon15Exe="steam://run/300"
+Icon15Img="icons\Day of Defeat Source.png"
+
+Icon16Exe="steam://run/211"
+Icon16Img="icons\Source SDK.png"
+
+;--STOP EDITING HERE!--
+
+
+ToggleWheel="[!RainmeterToggleMeter MainWheel] [!RainmeterToggleMeter MainText] [!RainmeterToggleMeter Icon1] [!RainmeterToggleMeter Icon2] [!RainmeterToggleMeter Icon3] [!RainmeterToggleMeter Icon4] [!RainmeterToggleMeter Icon5] [!RainmeterToggleMeter Icon6] [!RainmeterToggleMeter Icon7] [!RainmeterToggleMeter Icon8] [!RainmeterToggleMeter Icon9] [!RainmeterToggleMeter Icon10] [!RainmeterToggleMeter Icon11] [!RainmeterToggleMeter Icon12] [!RainmeterToggleMeter Icon13] [!RainmeterToggleMeter Icon14] [!RainmeterToggleMeter Icon15] [!RainmeterToggleMeter Icon16]"
+ToggleInfo="[!RainmeterToggleMeter InfoBox] [!RainmeterToggleMeter StyleInfoText] [!RainmeterToggleMeter SkinInfoText] [!RainmeterToggleMeter CloseButton]"
+
+
+[MeasureSkinInfo]
+Measure=Plugin
+Plugin=Plugins\QuotePlugin.dll
+PathName=#CURRENTPATH#Info.txt
+Disabled=0
+Separator=¶
+#Subfolders=0
+#FileFilter=*.txt
+
+[MeasureStyleInfo]
+Measure=Plugin
+Plugin=Plugins\QuotePlugin.dll
+PathName=#CURRENTPATH#\styles\#Style#\Info.txt
+Disabled=0
+Separator=¶
+#Subfolders=0
+#FileFilter=*.txt
+
+
+;-----------------------------------------------------------------------
+
+[MainWheel]
+Meter=IMAGE
+Hidden=1
+x=0
+y=0
+ImageName=styles\#Style#\Wheel.png
+
+[MainButton]
+Meter=BUTTON
+X=236
+Y=236
+ButtonImage=styles\#Style#\mainbutton.png
+ButtonCommand=!Execute #ToggleWheel#
+RightMouseDownAction=!Execute #ToggleInfo#
+
+[MainText]
+Meter=STRING
+Hidden=1
+x=300
+y=375
+Text=#CaptionText#
+FontColor=130, 130, 130, #CaptionAlpha#
+FontFace="Trebuchet MS"
+FontSize=20
+StringStyle=BOLD
+StringAlign=CENTER
+AntiAlias=1
+
+[InfoBox]
+Meter=IMAGE
+Hidden=1
+x=150
+y=175
+ImageName=styles\#Style#\info.png
+
+[SkinInfoText]
+Meter=STRING
+Hidden=1
+x=165
+y=250
+MeasureName=MeasureSkinInfo
+MeasureName2=MeasureStyleInfo
+FontColor=170, 170, 170, 200
+FontFace="Trebuchet MS"
+FontSize=10
+FontEffectColor=0, 0, 0, 200
+StringEffect=SHADOW
+AntiAlias=1
+
+[StyleInfoText]
+Meter=STRING
+Hidden=1
+x=320
+y=298
+MeasureName=MeasureStyleInfo
+FontColor=170, 170, 170, 200
+FontFace="Trebuchet MS"
+FontSize=10
+FontEffectColor=0, 0, 0, 200
+StringEffect=SHADOW
+AntiAlias=1
+
+[CloseButton]
+Meter=BUTTON
+Hidden=1
+x=250
+y=365
+ButtonImage=styles\#Style#\closebutton.png
+ButtonCommand=!Execute #ToggleInfo#
+
+
+;-----------------------------------------------------------------------
+
+[Icon1]
+Meter=BUTTON
+Hidden=1
+x=268
+y=12
+ButtonImage=#Icon1Img#
+ButtonCommand=!Execute #ToggleWheel# ["#Icon1Exe#"] [PLAY Skins\Steam Wheel\sounds\applaunch.wav]
+RightMouseDownAction=!Execute ["#SteamApps#\#AccountName#\"]
+
+[Icon2]
+Meter=BUTTON
+Hidden=1
+x=366
+y=32
+ButtonImage=#Icon2Img#
+ButtonCommand=!Execute #ToggleWheel# ["#Icon2Exe#"] [PLAY Skins\Steam Wheel\sounds\applaunch.wav]
+RightMouseDownAction=!Execute ["#SteamApps#\#AccountName#\half-life 2\"]
+
+[Icon3]
+Meter=BUTTON
+Hidden=1
+x=448
+y=84
+ButtonImage=#Icon3Img#
+ButtonCommand=!Execute #ToggleWheel# ["#Icon3Exe#"] [PLAY Skins\Steam Wheel\sounds\applaunch.wav]
+RightMouseDownAction=!Execute ["#SteamApps#\#AccountName#\half-life 2 episode one\"]
+
+[Icon4]
+Meter=BUTTON
+Hidden=1
+x=504
+y=170
+ButtonImage=#Icon4Img#
+ButtonCommand=!Execute #ToggleWheel# ["#Icon4Exe#"] [PLAY Skins\Steam Wheel\sounds\applaunch.wav]
+RightMouseDownAction=!Execute ["#SteamApps#\#AccountName#\half-life 2 episode two\"]
+
+; --- LOST COAST -> HL2 EP3 ---
+[Icon5]
+Meter=BUTTON
+Hidden=1
+x=518
+y=268
+ButtonImage=#Icon5Img#
+ButtonCommand=!Execute #ToggleWheel# ["#Icon5Exe#"] [PLAY Skins\Steam Wheel\sounds\applaunch.wav]
+RightMouseDownAction=!Execute ["#SteamApps#\#AccountName#\half-life 2 lostcoast\"]
+
+[Icon6]
+Meter=BUTTON
+Hidden=1
+x=504
+y=366
+ButtonImage=#Icon6Img#
+ButtonCommand=!Execute #ToggleWheel# ["#Icon6Exe#"] [PLAY Skins\Steam Wheel\sounds\applaunch.wav]
+RightMouseDownAction=!Execute ["#SteamApps#\#AccountName#\half-life\"]
+
+[Icon7]
+Meter=BUTTON
+Hidden=1
+x=448
+y=448
+ButtonImage=#Icon7Img#
+ButtonCommand=!Execute #ToggleWheel# ["#Icon7Exe#"] [PLAY Skins\Steam Wheel\sounds\applaunch.wav]
+RightMouseDownAction=!Execute ["#SteamApps#\#AccountName#\half-life blue shift"]
+
+[Icon8]
+Meter=BUTTON
+Hidden=1
+x=366
+y=504
+ButtonImage=#Icon8Img#
+ButtonCommand=!Execute #ToggleWheel# ["#Icon8Exe#"] [PLAY Skins\Steam Wheel\sounds\applaunch.wav]
+RightMouseDownAction=!Execute ["#SteamApps#\#AccountName#\opposing force\"]
+
+[Icon9]
+Meter=BUTTON
+Hidden=1
+x=268
+y=518
+ButtonImage=#Icon9Img#
+ButtonCommand=!Execute #ToggleWheel# ["#Icon9Exe#"] [PLAY Skins\Steam Wheel\sounds\applaunch.wav]
+RightMouseDownAction=!Execute ["#SteamApps#\#AccountName#\portal\"]
+
+[Icon10]
+Meter=BUTTON
+Hidden=1
+x=170
+y=504
+ButtonImage=#Icon10Img#
+ButtonCommand=!Execute #ToggleWheel# ["#Icon10Exe#"] [PLAY Skins\Steam Wheel\sounds\applaunch.wav]
+RightMouseDownAction=!Execute ["#SteamApps#\#AccountName#\team fortress 2\"]
+
+[Icon11]
+Meter=BUTTON
+Hidden=1
+x=84
+y=448
+ButtonImage=#Icon11Img#
+ButtonCommand=!Execute #ToggleWheel# ["#Icon11Exe#"] [PLAY Skins\Steam Wheel\sounds\applaunch.wav]
+RightMouseDownAction=!Execute ["#SteamApps#\common\left 4 dead\"]
+
+; --- ORIGINAL L4D -> L4D2 ---
+[Icon12]
+Meter=BUTTON
+Hidden=1
+x=36
+y=366
+ButtonImage=#Icon12Img#
+ButtonCommand=!Execute #ToggleWheel# ["#Icon12Exe#"] [PLAY Skins\Steam Wheel\sounds\applaunch.wav]
+RightMouseDownAction=!Execute ["#SteamApps#\common\left 4 dead\"]
+
+[Icon13]
+Meter=BUTTON
+Hidden=1
+x=12
+y=268
+ButtonImage=#Icon13Img#
+ButtonCommand=!Execute #ToggleWheel# ["#Icon13Exe#"] [PLAY Skins\Steam Wheel\sounds\applaunch.wav]
+RightMouseDownAction=!Execute ["#SteamApps#\#AccountName#\garrysmod\"]
+
+[Icon14]
+Meter=BUTTON
+Hidden=1
+x=36
+y=170
+ButtonImage=#Icon14Img#
+ButtonCommand=!Execute #ToggleWheel# ["#Icon14Exe#"] [PLAY Skins\Steam Wheel\sounds\applaunch.wav]
+RightMouseDownAction=!Execute ["#SteamApps#\#AccountName#\counter-strike source\"]
+
+[Icon15]
+Meter=BUTTON
+Hidden=1
+x=84
+y=84
+ButtonImage=#Icon15Img#
+ButtonCommand=!Execute #ToggleWheel# ["#Icon15Exe#"] [PLAY Skins\Steam Wheel\sounds\applaunch.wav]
+RightMouseDownAction=!Execute ["#SteamApps#\#AccountName#\day of defeat source\"]
+
+[Icon16]
+Meter=BUTTON
+Hidden=1
+x=170
+y=32
+ButtonImage=#Icon16Img#
+ButtonCommand=!Execute #ToggleWheel# ["#Icon16Exe#"] [PLAY Skins\Steam Wheel\sounds\applaunch.wav]
+RightMouseDownAction=!Execute ["#SteamApps#\#AccountName#\sourcesdk_content\"]

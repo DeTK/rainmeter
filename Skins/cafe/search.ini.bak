@@ -1,0 +1,44 @@
+[Rainmeter]
+Update = 1000
+
+[Variables]
+FontColor = 255, 255, 255, 255
+
+[BackGround1]
+Meter = Image
+Solidcolor = 0, 0, 0, 50
+X = 0
+Y = 0
+W = 200
+H = 40
+AntiAlias = 1
+
+[BackGround2]
+Meter = Image
+Solidcolor = 0, 0, 0, 50
+X = 7
+Y = 7
+W = 186
+H = 26
+Antialias = 1
+LeftMouseUpAction = !CommandMeasure "MeasureInputText" "ExecuteBatch 1"
+
+[MeasureInputText]
+Measure = Plugin
+Plugin = InputText.dll
+X = 7
+Y = 7
+W = 186
+H = 26
+SolidColor = 0, 0, 0, 255
+FontColor = #FontColor#
+FontSize = 20
+StringAlign = Left
+FocusDismiss = 1
+DefaultValue = Search
+Command1 = !Execute ["https://www.google.co.kr/search?q=$UserInput$"]
+
+[tran]
+Measure = Plugin
+Plugin = Webparser.dll
+Regexp = 

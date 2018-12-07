@@ -1,0 +1,15 @@
+[Variables]
+Champion=Champion
+Lane=
+XChampion=63
+YChampion=6
+XLane=63
+YLane=35
+YSkillOrder=160
+ItemSize=40
+RuneSize=40
+LaneSize=20
+ChampionIconSize=52
+YItem=17
+YRune=77
+CurrentlyLoading=1

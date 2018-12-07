@@ -1,0 +1,3 @@
+[Variables]
+SummonerName=
+Region=
