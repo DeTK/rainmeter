@@ -1,0 +1,82 @@
+Live Following for Twitch - A Rainmeter Skin
+
+Author: 	Wallboy
+Version: 	0.92 Beta
+Version Date:	August 20th, 2015
+License:	Creative Commons BY-NC-SA 4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
+Website:	wallboy.ca/rainmeter/
+Contact:	wallboy.ca/rainmeter/contact/
+
+------------------------------------------------------------
+
+CONTRIBUTIONS:
+
+Special thanks to all those that helped me with my questions involving Rainmeter, Lua, etc on the various forums.
+
+ADDONS:
+
+This skin uses the following great addons/tools:
+
+RainRGB 4.0	jsmorley 	(http://rainmeter.net/forum/viewtopic.php?f=18&t=6215)
+RunCommand 1.1	Brian 		(http://rainmeter.net/forum/viewtopic.php?f=18&t=16715)
+NConvert	XnSoft		(http://www.xnview.com/en/nconvert/)
+JSON Module	Jeffrey Friedl	(http://regex.info/blog/lua/json)
+
+------------------------------------------------------------
+
+CHANGELOG:
+
+Version: 	0.92 Beta
+Date: 		August 20th, 2015
+Platform: 	Rainmeter 3.20 Beta (r2326)
+
+[FIX]	- Livestreamer disappeared or isn't working with the skin after downloading a new version. This was caused from a check in the skin that was case sensitive
+		  and the skin believed Livestreamer was no longer present. This bug has been fixed and the Livestreamer icon should now be visible again.
+[FIX]	- Skin caused Rainmeter to crash in versions 3.3.0.2457 and newer. The issue was caused from an older modified version of the WebParser plugin I used to
+		  send Twitch API requests via headers. Since Twitch API version can now be specified through URL, this modified plugin is no longer needed and the skin now 
+		  uses the native Rainmeter WebParser plugin.
+[FIX]	- In the rare case of the skin being unloaded by hovering over a channel while a thumbnail was open and choosing "Unload Skin", the thumbnail would stay 
+		  open. In all cases of closing the skin, the thumbnail should now close as well.
+[FIX]	- In 0.91 I added a small delay to the skin when Rainmeter was first started after your computer booted up. This was to prevent the skin from trying to
+		  access the Internet before Windows had completed loading networking. This helped in some cases, but it still sometimes was not enough and you had
+		  to either wait for the next update cycle or manually refresh the skin. I have implemented an Internet Connectivity check when the skin is first loaded
+		  and will update the values from Twitch as soon as it has a connection.
+
+-----
+
+Version: 	0.91 Beta
+Date: 		January 1st, 2015
+Platform: 	Rainmeter 3.20 Beta (r2326)
+
+[CHANGE] - Skin has been renamed from "Live Followers for Twitch" to "Live Following for Twitch" as to avoid confusion.
+[FIX]    - Twitch sometimes thinks your Access Token is invalid for a single update. This would cause the error message "Invalid Access Token" to display,
+           forcing you to manually have to refresh the skin to get it working again. The skin will now ignore this "false positive" and just skip a single
+           update. So you should no longer see this error appear unless it occurs 5 updates in a row in which case Twitch API is likely having problems.
+[FIX]	 - Implemented error handling of the case where the Twitch API can return HTML instead of JSON. This would cause Lua errors and having
+           to manually refresh the skin for it to fix. An "Error Fetching Data" message will be shown if after 5 consecutive updates this occurs and
+           will automatically fix itself once Twitch has fixed the problem on their end without having to manually refresh the skin.
+[FIX]    - The skin will now attempt to recover from any "Invalid Token" or "Data Fetch" errors automatically without you having to manually
+           refresh the skin. The error message will go away and the skin will return to normal once Twitch has fixed the problem on their end.
+[FIX]	 - Added a small delay to the WebParser when Rainmeter or the skin is initially loaded. When Rainmeter first loads from a Windows boot,
+           the skin may try to resolve Twitch's domain before Windows has completed obtaining DNS information from your router. This would cause
+           a "DNS Resolve" WebParser error. This slight delay should prevent that from happening.
+[FIX]    - The "Generate New Access Token" link under the About tab in the skin options when your access token is invalid is now working properly.
+[FIX]    - The game name when hovering over a channel would sometimes show up as blank. The skin now uses a different JSON field to obtain the game name
+           which should be more reliable.
+[FIX]    - Game names with Unicode characters(trademark symbols, etc) might have shown up as jibberish. This was due to the Lua file not being saved
+           in the correct Unicode Format. This has been fixed, and game names with Unicode characters should now be displayed properly.
+[FIX]    - Fixed a problem where the channel's URL field is blank. This would cause a "concatenate with nil" Lua error. A manual skin refresh was necessary
+           to fix this error. The URL field is now hardcoded, and this problem should no longer occur.
+[FIX]    - Fixed a problem where if the skin was initially loaded and 0 channels were online, the first channel that came online thereafter would not
+           show the online notification.
+[MISC]   - Many other minor fixes such as spelling errors, minor cosmetic changes, and other minor code changes.
+
+-----
+
+Version:	0.90 Beta
+Date:		October 10th, 2014 
+Platform:	Rainmeter 3.20 Beta (r2326)
+
+- Initial Release
+			
+
